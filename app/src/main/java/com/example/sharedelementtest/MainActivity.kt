@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 //        postponeEnterTransition()
 
         imageView_small.setOnClickListener {
-            window.enterTransition
             var intent = Intent(this, DetailActivity::class.java)
             var options = ActivityOptions.makeSceneTransitionAnimation(
                 this,
